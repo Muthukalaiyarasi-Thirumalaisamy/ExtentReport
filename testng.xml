@@ -1,0 +1,10 @@
+<suite name="Sample Suite">
+    <listeners>
+        <listener class-name="com.qa.util.ExtentReportUtil" />
+    </listeners>
+    <test name="Sample Tests">
+        <classes>
+            <class name="com.qa.Test.SampleTest" />
+        </classes>
+    </test>
+</suite>
